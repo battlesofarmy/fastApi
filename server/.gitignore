@@ -1,0 +1,74 @@
+# === PYTHON / FASTAPI ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+*.db-journal
+*.lock
+*.bak
+*.tmp
+*.swp
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+venv/
+.venv/
+env/
+.env/
+ENV/
+.ENV/
+*.env.*
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/
+
+# coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# FastAPI/Starlette specific
+instance/
+*.log
+
+# IDEs
+.idea/
+*.iml
+
+# === FRONTEND (Next.js, etc.) already handled by you ===
+# Keep your existing:
+# - node_modules/
+# - .next/
+# - .vercel/
+# - .env*
+# - coverage/
+# - out/
+# - *.tsbuildinfo
