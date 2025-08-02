@@ -55,3 +55,9 @@ wmi==1.5.1
 wsproto==1.2.0
 xmlrpclib==1.0.1
 zstandard==0.23.0
+
+
+
+fastapi==0.104.1
+pydantic==2.5.3  # or whatever version you are using
+email-validator==2.1.1  # or whatever version is compatible

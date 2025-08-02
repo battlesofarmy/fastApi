@@ -83,3 +83,8 @@ def delete_one(id: int, db: Session = Depends(get_db)):
         db.commit()
         return {"message": "Todo deleted"}
     return {"error": "Todo not found!"}
+
+
+@app.get('/')
+def root():
+    return {"Hello from fastApi!"}
