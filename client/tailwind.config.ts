@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import TailAnimate from 'tailwindcss-animate'
 
 export default {
     darkMode: ["class"],
@@ -46,7 +47,6 @@ export default {
   				DEFAULT: 'hsl(var(--destructive))',
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
-  			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
   			chart: {
@@ -64,5 +64,5 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [TailAnimate],
 } satisfies Config;
